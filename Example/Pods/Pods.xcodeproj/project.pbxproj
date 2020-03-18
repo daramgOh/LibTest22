@@ -13,6 +13,10 @@
 		86FE04FD577DFDEE2B8A85930D2A2287 /* LibTest22-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2609BCDF2EA39BB51674795C2CE3549 /* LibTest22-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99B4E0077F812DC4A88ECEE236A38E06 /* Pods-LibTest22_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD14B1FAFCF33AD00CDEEFBF4C8A9B60 /* Pods-LibTest22_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE6F1D7A1CD5BE5632481C563026E0F8 /* Pods-LibTest22_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C40434BEAC327BFA485E860083702E8 /* Pods-LibTest22_Example-dummy.m */; };
+		CF7AFCA92421C477002CC928 /* Source1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7AFCA82421C477002CC928 /* Source1.swift */; };
+		CF7AFCAA2421C477002CC928 /* Source1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7AFCA82421C477002CC928 /* Source1.swift */; };
+		CF7AFCAC2421DAAA002CC928 /* Source2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7AFCAB2421DAAA002CC928 /* Source2.swift */; };
+		CF7AFCAD2421DAAA002CC928 /* Source2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7AFCAB2421DAAA002CC928 /* Source2.swift */; };
 		F961DC8C51BD5CA2BB77514CE7851690 /* Pods-LibTest22_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB104A11E4ED2A109E0C5199C935544 /* Pods-LibTest22_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE4AF986596C0A449D9D3C9D2438E238 /* LibTest22-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C856CA0073F78866828B4175E268C7 /* LibTest22-dummy.m */; };
 		FE93B608A45700A9C7C7C16ACE463ABB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -65,6 +69,8 @@
 		C5C856CA0073F78866828B4175E268C7 /* LibTest22-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LibTest22-dummy.m"; sourceTree = "<group>"; };
 		CEB104A11E4ED2A109E0C5199C935544 /* Pods-LibTest22_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LibTest22_Example-umbrella.h"; sourceTree = "<group>"; };
 		CEEADC790DA7CCC5588C1C863822FEDF /* Pods-LibTest22_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibTest22_Tests-Info.plist"; sourceTree = "<group>"; };
+		CF7AFCA82421C477002CC928 /* Source1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Source1.swift; path = LibTest22/Classes/Source1.swift; sourceTree = "<group>"; };
+		CF7AFCAB2421DAAA002CC928 /* Source2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source2.swift; sourceTree = "<group>"; };
 		D074A09105D93CE423AA113E192A7E9D /* LibTest22.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LibTest22.swift; path = LibTest22/Classes/LibTest22.swift; sourceTree = "<group>"; };
 		D2609BCDF2EA39BB51674795C2CE3549 /* LibTest22-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibTest22-umbrella.h"; sourceTree = "<group>"; };
 		D5AB263E49D90D4D5227BF54362B5A91 /* Pods-LibTest22_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibTest22_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +112,8 @@
 				D074A09105D93CE423AA113E192A7E9D /* LibTest22.swift */,
 				23405B9F4BF35EF19F766CF5EF95B2B6 /* Pod */,
 				08E76245BD391F17874BF743E2BDD23C /* Support Files */,
+				CF7AFCA82421C477002CC928 /* Source1.swift */,
+				CF7AFCAB2421DAAA002CC928 /* Source2.swift */,
 			);
 			name = LibTest22;
 			path = ../..;
@@ -372,6 +380,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF7AFCAD2421DAAA002CC928 /* Source2.swift in Sources */,
+				CF7AFCAA2421C477002CC928 /* Source1.swift in Sources */,
 				2413D099C5AE85CCAF6F158F4C317AD3 /* Pods-LibTest22_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,8 +398,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF7AFCA92421C477002CC928 /* Source1.swift in Sources */,
 				FE4AF986596C0A449D9D3C9D2438E238 /* LibTest22-dummy.m in Sources */,
 				FF548C04F731F46BE1ADE07312FEA72C /* LibTest22.swift in Sources */,
+				CF7AFCAC2421DAAA002CC928 /* Source2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,6 +18,9 @@ class ViewController: UIViewController {
         let LibT = LibTest22()
         LibT.showMsg(msg: "test22")
         
+        LibT.cal(v1: 4, v2: 7)
+        LibT.str(v1: "fds", v2: "fd")
+        
     }
 
     override func didReceiveMemoryWarning() {
