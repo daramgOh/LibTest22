@@ -10,7 +10,7 @@ import UIKit
 public class LibTest22: NSObject {
     
     let s1 = Source1()
-    let s2 = Source2()
+    let s3 = Source3()
     
     public func showMsg(msg: String) {
         print("msg: \(msg)")
@@ -22,8 +22,8 @@ public class LibTest22: NSObject {
     }
     
     public func str(v1: String, v2: String) {
-        s2.setText(v1: v1, v2: v2)
-        print("get str: \(s2.getText())")
+        s3.setStr(v1: v1, v2: v2)
+        print("get str: \(s3.getStr())")
     }
 
 }
