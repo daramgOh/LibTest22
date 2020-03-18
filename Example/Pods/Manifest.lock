@@ -1,0 +1,16 @@
+PODS:
+  - LibTest22 (0.1.0)
+
+DEPENDENCIES:
+  - LibTest22 (from `../`)
+
+EXTERNAL SOURCES:
+  LibTest22:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LibTest22: 79090b16e3022a7430ffebcd2073a6734edfa513
+
+PODFILE CHECKSUM: c98c28c5ce8f3ecb89ba293b2b0129ecbfc93165
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,6 @@
+framework module LibTest22 {
+  umbrella header "LibTest22-umbrella.h"
+
+  export *
+  module * { export * }
+}
